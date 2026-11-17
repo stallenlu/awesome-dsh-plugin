@@ -5743,6 +5743,7 @@ dsh plugin --profile web add dshmarket
 - [SPYQWER1/dsh-codex-tools](https://github.com/SPYQWER1/dsh-codex-tools) — 基于 Codex 的 `web_search`、`image_gen` 与 `image_vision` 工具，复用 ChatGPT OAuth 登录态为 DeepSeek Harness 提供网页搜索、生图与识图能力。
 - [sryimnoob123/dsh-tool-pwsh-safe](https://github.com/sryimnoob123/dsh-tool-pwsh-safe) — 把 PowerShell 脚本 base64 编码后执行，引号、$、反斜杠、中文全部原样传递，免去转义地狱。走与内置 pwsh 工具相同的沙箱通道。
 - [stallenlu/dsh-disk-cleaner](https://github.com/stallenlu/dsh-disk-cleaner) — 面向 DeepSeek Harness 的 Windows 磁盘清理插件，扫描已知的安全缓存目录、显示占用大小，在 Web 面板中回收空间，并对无法自动清理的部分提供只读审计。
+- [stallenlu/dsh-research-desk](https://github.com/stallenlu/dsh-research-desk) — 在 DSH 内提供科研工作台：免密钥检索 arXiv、Europe PMC 与 OpenAlex，保存文献库与 PDF 全文，提问时逐条比对原文校验引用，再生成选题假设与草稿，按五个视角产出多视角综述，在受限工作目录内运行用户提供的 Python 或 Node 脚本做验证计算，并把文献库导出为 Markdown、BibTeX 或 JSON。
 - [stallenlu/dsh-scihub](https://github.com/stallenlu/dsh-scihub) — 为 DSH 注册 scihub_pdf 与 scihub_batch 两个模型工具：按 DOI 或文章 URL 经 Sci-Hub 镜像解析并下载论文 PDF 到会话工作区，逐条如实返回下载状态；镜像列表可在运行时配置，修改后无需重启。
 - [STARDUSTLC666/deepseek-computer-use](https://github.com/STARDUSTLC666/deepseek-computer-use) — 通过 UI Automation、窗口截图和鼠标键盘操作 Windows 桌面软件，支持会话独立应用授权和操作审批。
 - [STARDUSTLC666/dsh-calendar](https://github.com/STARDUSTLC666/dsh-calendar) — CalDAV 日历插件：查/建/改/删/搜日程与健康自检，Google/iCloud/Nextcloud/自定义端点，RRULE 重复事件展开；设置页内置月/周/议程面板，连接可在面板内填写并先测后存，周视图支持拖拽改期（15 分钟吸附、5 秒撤销）。面板内置 4 步首次使用引导，看一次后不再出现。
